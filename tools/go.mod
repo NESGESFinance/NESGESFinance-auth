@@ -8,7 +8,7 @@ tool (
 	honnef.co/go/tools/cmd/staticcheck
 )
 
-require github.com/oapi-codegen/oapi-codegen/v2 v2.7.0
+require github.com/oapi-codegen/oapi-codegen/v2 v2.7.1
 
 require (
 	cloud.google.com/go v0.121.2 // indirect

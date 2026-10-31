@@ -90,7 +90,7 @@ require (
 	github.com/fatih/structs v1.1.0
 	github.com/fsnotify/fsnotify v1.7.0
 	github.com/fxamacker/cbor/v2 v2.9.1
-	github.com/go-chi/chi/v5 v5.2.4
+	github.com/go-chi/chi/v5 v5.4.0
 	github.com/go-webauthn/webauthn v0.16.5
 	github.com/gobuffalo/pop/v6 v6.1.1
 	github.com/golang-jwt/jwt/v5 v5.3.1
@@ -173,6 +173,4 @@ require (
 
 go 1.25.11
 
-replace (
-	github.com/joho/godotenv => ./internal/forks/godotenv
-)
+replace github.com/joho/godotenv => ./internal/forks/godotenv
